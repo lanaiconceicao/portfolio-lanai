@@ -1,13 +1,30 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fe90cd;
+  color: black;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+button {
+  border: transparent;
+  display: flex;
+  margin-bottom: 5vh;
+  justify-content: center;
+  height: 8vh;
+  align-items: center;
+  border-radius: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #0f5e12;
 }
