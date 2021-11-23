@@ -1,0 +1,94 @@
+.profile-picture {
+  background: url('https://github.com/lanaiconceicao.png');
+  background-size: cover;
+  margin: 2vh 5vw 0 5vw;
+  width: 35vw;
+  min-width: 120px;
+  max-width: 120px;
+  height: 20vh;
+  border-radius: 50%;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.titles-container {
+  width: 60vw;
+}
+
+.title,
+.subtitle
+{
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #0f5e12;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 30px;
+  color: #0f5e12;
+  font-weight: 700;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
+  align-items: center;
+}
+
+.icon {
+  font-size: 25px;
+  margin: 5px;
+  color:#f7cf71;
+}
+
+.link-button {
+  background-color: #dc0385;
+  cursor: pointer;
+  width: 300px;
+  max-width: 300px;
+  max-height: 50px;
+}
+
+.link-button {
+  font-family: 'Red Hat Mono', monospace;
+  color:#f7cf71;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #0f5e12;
+}
+
+.span-footer {
+  font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+  .profile-picture {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    min-width: 150px;
+    max-width: 150px;
+  }
+}

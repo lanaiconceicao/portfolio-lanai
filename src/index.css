@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #FAFAF7;
+  background-color: #fe90cd;
   color: black;
   font-family: 'Red Hat Mono', monospace;
 }
@@ -26,9 +26,5 @@ button {
 
 a {
   text-decoration: none;
-  color: black;
-  margin-left: 10px;
-  font-size: 25px;
-  font-family: 'Red Hat Mono', monospace;
-  font-weight: bold;
+  color: #0f5e12;
 }
