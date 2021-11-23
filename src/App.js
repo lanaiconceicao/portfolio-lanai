@@ -6,6 +6,9 @@ import Button from './components/Button';
 function App() {
   return (
     <>
+      <div className="profile-picture"></div>
+      <h1>Lanai Conceição</h1>
+      <h2>Web Development Student</h2>
       <div className="button-container">
         <Button
           icon={<FaLinkedin/>}
